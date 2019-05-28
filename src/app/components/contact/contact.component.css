@@ -1,0 +1,36 @@
+.contact {
+    background-image: url("src/assets/images/bg_4.jpg");
+    max-height: 650px;
+}
+
+#info-details {
+     padding: 14% 12% 7% 0%;
+    margin: 20% 10% 10% 0%;
+}
+
+h2 {
+    line-height: 1.4;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Josefin Sans", Arial, sans-serif;
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+.info {
+    margin-bottom: 1rem;
+    padding-right: 15px;
+    padding-left: 15px;
+    background: transparent;
+}
+p {
+    font-family: "Poppins", Arial, sans-serif;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+span {
+    color: #fff;
+}
+span.details {
+    color: #fac564;
+}

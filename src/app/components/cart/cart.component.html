@@ -1,0 +1,51 @@
+<div id="cart">
+    <app-overlay [title]="title"></app-overlay>
+    <div class="container">
+        <table class="table borderless">
+            <thead class="thead">
+                <tr class="header">
+                    <th colspan="4">Product</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Amount</th>
+                    <th scope="col">Value</th>
+                </tr>
+            </thead>
+            <tbody *ngFor="let order of orderlist; let odd = odd" [ngClass]="{'odd-tr other': odd}">
+                <tr class="other">
+                    <td rowspan="2">
+                        <button class="cross-button" type="button" (click)="removeOrder(order)">
+                            <i class="fa fa-times-circle"></i>
+                        </button>
+                    </td>
+                    <td rowspan="2"><img class="imageClass" [src]="order.item.photo"></td>
+                    <td colspan="2">
+                        <h4>{{order.item.title}}</h4>
+                    </td>
+                    <td rowspan="2">${{order.item.price}}.00</td>
+                    <td rowspan="2" width="15%">
+                        <div class="input-group">
+                            <button class="input-group-addon input-group-addon-yellow"
+                                (click)="changeAmount(order, -1)">
+                                <i class="icon-minus"></i>
+                            </button>
+                            <input type="text" class="form-control" [(ngModel)]="order.amount">
+                            <button class="input-group-addon input-group-addon-yellow" (click)="changeAmount(order, 1)">
+                                <i class="icon-plus"></i>
+                            </button>
+                        </div>
+                    </td>
+                    <td rowspan="2">
+                        ${{order.amount * order.item.price}}
+                    </td>
+                </tr>
+                <tr class="other">
+                    <td colspan="2">{{order.item.components}}</td>
+                </tr>
+            </tbody>
+            <tr>
+                <td colspan="7">Total: ${{getTotalPrice()}}</td>
+            </tr>
+        </table>
+    </div>
+    <app-info-panel></app-info-panel>
+</div>

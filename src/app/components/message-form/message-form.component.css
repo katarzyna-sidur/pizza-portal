@@ -1,0 +1,37 @@
+.contactform {
+    padding: 7% 12% 7% 5%;
+}
+h3.contactHeader {
+    color: white;
+}
+form.appointment-form {
+    font-family: "Poppins", Arial, sans-serif;
+}
+.appointment-form .form-group {
+        position: relative;
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+    padding-bottom: 10px;
+}
+.form-control {
+   border: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    height: 58px;
+    padding-left: 0;
+    padding-right: 0;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 13px;
+    border-radius: 0px;
+    box-shadow: none;
+}
+.btn.btn-primary.py-3.px-4 {
+    background: #fac564;
+    border: 1px solid #fac564;
+    color: #000;
+    margin-left:1%;
+}
+.btn.btn-primary.py-3.px-4:hover {
+    color:white;
+}

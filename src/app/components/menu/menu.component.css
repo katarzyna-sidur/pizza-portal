@@ -1,0 +1,142 @@
+#menu {
+    background-image: url("src/assets/images/bg_4.jpg");
+}
+
+h2.title {
+        font-size: 30px;
+    font-weight: 400;
+    position: relative;
+    text-transform: uppercase;
+    line-height: 1.4;
+    color: #fff;
+    font-family: "Josefin Sans", Arial, sans-serif;
+    margin-bottom: 2%;
+
+    
+}
+
+div.menulist {
+    margin-top:4%;
+    text-align: center;
+    margin-bottom:5%;
+}
+span.description {
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: gray;
+    padding-top:2%;
+    padding-bottom: 2%;
+    display:block;
+}
+
+ p.flip {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+p.flip:before {
+    position: absolute;
+    bottom: 4px;
+    left: 100px;
+    right: 0;
+    content: '';
+    width: 40px;
+    height: 1px;
+    background: #8d5d05;
+    margin: 0 auto;
+}
+
+p.flip span.deg1 {
+    position: absolute;
+    bottom: 2px;
+    left: -30px;
+    right: 0;
+    width: 6px;
+    height: 6px;
+    content: '';
+    background: #fac564;
+    -ms-transform: rotate(135deg);
+    transform: rotate(135deg);
+    margin: 0 auto;
+}
+ p.flip span.deg2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    content: '';
+    background: #fac564;
+    -webkit-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    transform: rotate(135deg);
+    margin: 0 auto;
+}
+p.flip span.deg3 {
+    position: absolute;
+    bottom: 2px;
+    left: 30px;
+    right: 0;
+    width: 6px;
+    height: 6px;
+    content: '';
+    background: #fac564;
+    -webkit-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    transform: rotate(135deg);
+    margin: 0 auto;
+}
+p.flip:after {
+    position: absolute;
+    bottom: 4px;
+    left: -100px;
+    right: 0;
+    content: '';
+    width: 40px;
+    height: 1px;
+    background: #8d5d05;
+    margin: 0 auto;
+}
+
+div.container {
+    margin-left:10%;
+    
+
+}
+img { 
+     width:70px;
+    height:70px;
+     -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: right;
+}
+h3 {
+    line-height: 1.4;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Josefin Sans", Arial, sans-serif;
+    text-align: left;
+}
+span.name {
+    padding-right: 20px;
+    color: #bfbfbf;
+     font-size: 20px;
+}
+span.price {
+    width: 80px;
+    color: #fac564;
+    text-align: right;
+    font-size: 16px;
+}
+div.components {
+    text-align: left;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: gray;
+}

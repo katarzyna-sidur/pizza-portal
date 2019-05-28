@@ -1,0 +1,54 @@
+div.row {
+    margin:0;
+}
+div.info {
+    background-color: black;
+        padding: 2% 5% 0 12%;
+}
+
+.info h3 {
+        line-height: 1.4;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Josefin Sans", Arial, sans-serif;
+    font-size: 16px;
+}
+.info p {
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: gray;
+}
+
+div.icon {
+    width: 40px;
+    margin:0;
+    float:left;
+}
+
+.icon span {
+    color: #fac564;
+    font-size: 20px;
+}
+div.text {
+    float:left;
+}
+
+ div.social {
+    background-color: #fac564;
+}
+ul.social-icon{
+    list-style-type: none;
+    margin-top:10%;
+    margin-left:6%;
+}
+
+ul.social-icon > li {
+     display: inline;
+}
+li.ftco-animate > span {
+    color:white;
+    padding-right:10%;
+    font-size:24px;
+}

@@ -1,0 +1,50 @@
+<div id="menu">
+    <app-overlay [title]="title"></app-overlay>
+    <div class="menulist">
+        <a id="ourmenu">
+            <h2 class="title">Pricing</h2>
+        </a>
+        <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
+        <span class="description">Far far away, behind the word mountains, far from the countries Vokalia and<br>
+            Consonantia, there live the blind texts.</span>
+        <div class="container" *ngFor="let pizza of pizzas">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="photo">
+                                <img class="imageClass" [src]="pizza.photo">
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>
+                                        <span class="name">{{pizza.title}}</span>
+                                    </h3>
+                                </div>
+                                <div class="col-md-6">
+                                    <span class="price">${{pizza.price}}.00</span>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="components">
+                                        <p>{{pizza.components}}</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1">
+                            <button class="btn btn-primary  p-3 px-xl-4 py-xl-3"
+                                (click)="openModalWithComponent(pizza)">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <app-info-panel></app-info-panel>
+</div>

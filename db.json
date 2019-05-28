@@ -1,0 +1,76 @@
+{
+  "pizza": [
+    {
+      "id": 1,
+      "title": "Italian Pizza",
+      "components": "A small river named Duden flows by their place and supplies",
+      "photo": "assets/images/pizza-1.jpg",
+      "price": 20
+    },
+    {
+      "id": 2,
+      "title": "Hawaiian Pizza",
+      "components": "A small river named Duden flows by their place and supplies",
+      "photo": "assets/images/pizza-2.jpg",
+      "price": 29
+    },
+    {
+      "id": 3,
+      "title": "Greek Pizza",
+      "components": "A small river named Duden flows by their place and supplies",
+      "photo": "assets/images/pizza-3.jpg",
+      "price": 20
+    },
+    {
+      "id": 4,
+      "title": "Bacon Crispy Thins",
+      "components": "A small river named Duden flows by their place and supplies",
+      "photo": "assets/images/pizza-4.jpg",
+      "price": 20
+    },
+    {
+      "id": 5,
+      "title": "Hawaiian Special",
+      "components": "A small river named Duden flows by their place and supplies",
+      "photo": "assets/images/pizza-5.jpg",
+      "price": 49
+    },
+    {
+      "id": 6,
+      "title": "Ultimate Overload",
+      "components": "A small river named Duden flows by their place and supplies",
+      "photo": "assets/images/pizza-6.jpg",
+      "price": 26
+    },
+    {
+      "id": 7,
+      "title": "Bacon Pizza",
+      "components": "A small river named Duden flows by their place and supplies",
+      "photo": "assets/images/pizza-7.jpg",
+      "price": 35
+    },
+    {
+      "id": 8,
+      "title": "Ham & Pineapple",
+      "components": "A small river named Duden flows by their place and supplies",
+      "photo": "assets/images/pizza-8.jpg",
+      "price": 39
+    }
+  ],
+  "message": [
+    {
+      "firstName": "Kasia",
+      "lastName": "Sidur",
+      "message": "test1",
+      "email": "katarzyna.sidur@gmail.com",
+      "id": 1
+    },
+    {
+      "firstName": "Kas",
+      "lastName": "si",
+      "message": "test2",
+      "email": "kaskas@gamil.com",
+      "id": 2
+    }
+  ]
+}

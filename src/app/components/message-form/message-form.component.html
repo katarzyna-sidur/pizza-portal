@@ -1,0 +1,33 @@
+<div class="contactform">
+    <h3 class="contactHeader"> Contact Us </h3>
+    <form action="#" class="appointment-form">
+        <div class="d-md-flex">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="First Name" name="firstName"
+                    [(ngModel)]="message.firstName">
+            </div>
+        </div>
+        <div class="d-me-flex">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Last Name" name="lastName"
+                    [(ngModel)]="message.lastName">
+            </div>
+        </div>
+        <div class="d-me-flex">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Email" name="email" [(ngModel)]="message.email">
+            </div>
+        </div>
+        <div class="form-group">
+            <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="Message" name="message"
+                [(ngModel)]="message.message"></textarea>
+        </div>
+        <div *ngFor="let alert of alerts">
+            <alert [type]="alert.type" [dismissOnTimeout]="alert.timeout" (onClosed)="onClosed(alert)">
+                {{ alert.msg }}</alert>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Send" class="btn btn-primary py-3 px-4" (click)=" sendMessage(); addAlert()">
+        </div>
+    </form>
+</div>

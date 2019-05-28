@@ -1,0 +1,31 @@
+.home-slider {
+    background-image: url(src/assets/images/bg_7.jpg);
+    height: 200px;
+}
+.slider-item {
+    height: 200px;
+    background-color: rgba(0,0,0,0.5);
+    transition: 1.5s;
+}
+div.slidetext {
+    margin-top:6%;
+    text-align: center;
+}
+div.slidetext > h1.title{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.btn.btn-primary.p-3.px-xl-4.py-xl-3 {
+    background: #fac564;
+    border: 1px solid #fac564;
+    color: #000;
+    margin-left:2%;
+}
+.btn.btn-primary.p-3.px-xl-4.py-xl-3:hover {
+    color:white;
+}

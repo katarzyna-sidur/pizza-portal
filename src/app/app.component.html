@@ -1,0 +1,27 @@
+<div class="container-fluid">
+    <nav class="navbar fixed-top  navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" routerLink="home"><span
+                    class="flaticon-pizza mr-1"></span>Pizza<small>Delicous</small></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> Menu
+            </button>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" routerLink="home" routerLinkActive="active">Home</a></li>
+                    <li class="nav-item"><a class="nav-link activeLink" routerLink="menu"
+                            routerLinkActive="active">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link activeLink" routerLink="contact"
+                            routerLinkActive="active">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <button class="cart" id="btnGroupDrop1" type="button" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false" routerLink="cart"><i class="fas fa-shopping-cart"></i>
+                    ${{cartTotalSum}}</button>
+            </div>
+        </div>
+    </nav>
+    <router-outlet></router-outlet>
+</div>

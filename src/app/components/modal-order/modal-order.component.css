@@ -1,0 +1,9 @@
+img.imageClass {
+    height: 100px;;
+}
+.col-md-12.price {
+    text-align: right;
+    color: #8d5d05;
+    font-size: 20px;
+    font-weight: bold;
+}

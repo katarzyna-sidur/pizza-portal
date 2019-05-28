@@ -1,0 +1,55 @@
+.subheading{
+    font-family: "Nothing You Could Do", cursive;
+    font-size: 30px;
+    color: #fac564;
+}
+
+
+ .slideimg {
+     display: block; 
+     width: 100%; 
+     height: 650px;
+ }
+ 
+
+.otherimg {
+    display: block;
+    width: 90%;
+    padding-top:10%;
+    margin-left:6%;
+}
+
+.carousel-caption.d-none.d-md-block {
+    height:600px;
+}
+
+.carousel-caption.d-none.d-md-block:hover{
+    background-color: rgba(0,0,0,0.5);
+    transition: 1s;
+ }
+
+ .col-md-6.d{
+padding-top:12%;
+ }
+
+ h1 {
+    padding-top:2%;
+    font-family: "Josefin Sans", Arial, sans-serif;
+    text-transform: uppercase;
+}
+p.description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top:18px;
+    color: white;
+    text-align: right;
+}
+p.description1 {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top:18px;
+    color: white;
+    text-align: left;
+}
+
+
